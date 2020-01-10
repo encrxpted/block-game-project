@@ -1,0 +1,7 @@
+name: MyPlugin
+main: main.Main
+version: 0.0.1
+author: miliana
+commands:
+  fillOn:
+    description: sets whether or not the triangle will be filled when drawn
