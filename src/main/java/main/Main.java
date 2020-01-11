@@ -9,8 +9,8 @@ public class Main extends JavaPlugin {
 	public void onEnable() {
 		getLogger().info("onEnable has been invoked!");
 		System.out.println("enabled");
-        getServer().getPluginManager().registerEvents(new ClickListener(), this); // registers the click listener
-        this.getCommand("fillOn").setExecutor(new ToggleFillCommand());
+		getServer().getPluginManager().registerEvents(new ClickListener(), this); // registers the click listener
+		this.getCommand("fillOn").setExecutor(new ToggleFillCommand());
 
 	}
 
