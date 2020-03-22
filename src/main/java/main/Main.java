@@ -11,7 +11,6 @@ public class Main extends JavaPlugin {
 		System.out.println("enabled");
 		getServer().getPluginManager().registerEvents(new ClickListener(), this); // registers the click listener
 		this.getCommand("fillOn").setExecutor(new ToggleFillCommand());
-
 	}
 
 	@Override
